@@ -1,0 +1,13 @@
+# Ignore the environment
+.venv/
+__pycache__/
+.idea/
+
+# Ignore large datasets (WESAD is too big for GitHub)
+data/WESAD/
+data/*.csv
+data/final_fusion_ready/
+data/synthetic_mimic/
+
+# Ignore log files
+*.log
